@@ -48,12 +48,7 @@ const Navbar = () => {
            <Button sx={{ color: "#ecf0f1" }} onClick={() => navigate("/view")}>
             view
           </Button>
-           <Button sx={{ color: "#ecf0f1" }} onClick={() => navigate("/delete")}>
-           delete
-          </Button>
-           <Button sx={{ color: "#ecf0f1" }} onClick={() => navigate("/add")}>
-            update
-          </Button>
+
           <Button sx={{ color: "#ecf0f1" }} onClick={clearUser}>
             Logout
           </Button>

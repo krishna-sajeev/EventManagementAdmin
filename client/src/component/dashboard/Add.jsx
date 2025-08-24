@@ -29,7 +29,7 @@ const Add = () => {
   const sendData = () => {
     if (location.state != null) {
       axios
-        .put(`http://localhost:8080/update/${location.state.event.id}`, form)
+        .put(`http://localhost:8080/event/update/${location.state.event.id}`, form)
         .then(() => {
           alert('Data updated');
           navigate('/view');
