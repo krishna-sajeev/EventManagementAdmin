@@ -111,6 +111,7 @@ const Add = () => {
        
           <br />
           <TextField
+          select
             required
             label="eventType"
             name="eventType"
